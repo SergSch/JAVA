@@ -7,7 +7,8 @@ public class Main {
         System.out.println(myStr);
 
 //      Напишите метод, который принимает в качестве параметра строку, передайте в этот метод строку, которую создали в п.1
-        String myStr1 = myStr;
+        void outString(String myStr) {
+        }
 
 //        Распечатать пред-последний символ строки. Используем метод String.charAt().
         System.out.println(myStr1.charAt(myStr1.length()-2));
