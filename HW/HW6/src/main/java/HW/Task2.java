@@ -5,7 +5,7 @@ import java.util.Random;
 public class Task2 {
     public static void main(String[] args) {
         Random random = new Random();
-        int n = random.nextInt(28800)+1;
+        int n = random.nextInt(28800);
         endWorksDay(n);
     }
 
